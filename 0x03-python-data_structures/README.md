@@ -35,10 +35,3 @@
 | [10-divisible_by_2.py](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x03-python-data_structures/10-divisible_by_2.py) |Function that finds all multiples of 2 in a list. |
 | [11-delete_at.py](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x03-python-data_structures/11-delete_at.py)| Function that deletes the item at a specific position in a list. |
 | [12-switch.py](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x03-python-data_structures/12-switch.py) | Exchange variable values. |
-| 13-is_palindrome.c, lists.h | |
-
-#### Advanced:
-
-| File | Description |
-| --- | --- |
-|100-print_python_list_info.c | |
