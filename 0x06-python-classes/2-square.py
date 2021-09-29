@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Class Square"""
 
+
 class Square:
 
     """Private instance attribute: size
@@ -14,4 +15,4 @@ class Square:
         elif size < 0:
             raise ValueError('size must be >= 0')
         else:
-            self.__size = int(size)
+            self.__size = size
