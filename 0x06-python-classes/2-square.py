@@ -2,6 +2,7 @@
 """Class Square"""
 
 class Square:
+
     """Private instance attribute: size
     size must be an integer
     The size is greater than or equal to 0
@@ -13,4 +14,4 @@ class Square:
         elif size < 0:
             raise ValueError('size must be >= 0')
         else:
-            self.__size = size
+            self.__size = int(size)
