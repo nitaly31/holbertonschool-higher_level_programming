@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 class Square:
-    """ Creating an empty class without attributes or methods """
+    """ Empty class with no attributes or methods.
+    """
     pass
