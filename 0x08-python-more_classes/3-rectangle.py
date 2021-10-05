@@ -57,3 +57,4 @@ class Rectangle:
             return result
         result += '\n'.join("#" * self.__width
                                 for j in range(self.__height))
+        return result
