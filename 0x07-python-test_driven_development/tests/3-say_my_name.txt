@@ -1,0 +1,47 @@
+Module say_my_name
+======================
+
+Using say_my_name:
+concatenate first and last name.
+
+    >>> say_my_name = __import__('3-say_my_name').say_my_name
+
+Checking docstring for module:
+        >>> __import__('3-say_my_name').__doc__ != None
+        True
+
+Check docstring for function:
+        >>> len(say_my_name.__doc__) > 0
+        True
+
+checking normal string:
+    >>> say_my_name("Hello", "World")
+    My name is Hello World
+
+checking when pass numbers :
+    >>> say_my_name("matrix", 0)
+    Traceback (most recent call last):
+    ...
+    TypeError: last_name must be a string
+
+checkin only numbers:
+    >>> say_my_name(15, 30)
+    Traceback (most recent call last):
+    ...
+    TypeError: first_name must be a string
+
+checking normal string again:
+    >>> say_my_name("Bob", "Marly")
+    My name is Bob Marly
+
+checking type:
+    >>> say_my_name(str)
+    Traceback (most recent call last):
+    ...
+    TypeError: first_name must be a string
+
+checking missing two arguments:
+    >>> say_my_name()
+    Traceback (most recent call last):
+    ...
+    TypeError: say_my_name() missing 1 required positional argument: 'first_name'
