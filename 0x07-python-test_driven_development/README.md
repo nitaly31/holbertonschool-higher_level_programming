@@ -18,21 +18,16 @@
 
 ### 🎯 Tasks
 ***
-Todas las siguientes carpetas son proyectos realizados durante los estudios:
-Mandatorios:
+#### Mandatory:
 | Files | Description |
 | --- | --- |
-| [0-add_integer.py, tests/0-add_integer.txt]() |  |
-| [2-matrix_divided.py, tests/2-matrix_divided.txt]() |  |
-| [3-say_my_name.py, tests/3-say_my_name.txt]() |  |
-| [4-print_square.py, tests/4-print_square.txt]() |  |
-| [5-text_indentation.py, tests/5-text_indentation.txt]() |  |
+| [0-add_integer.py](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x07-python-test_driven_development/0-add_integer.py) | Integers addition. |
+| [2-matrix_divided.py]() |  |
+| [3-say_my_name.py]() |  |
+| [4-print_square.py]() |  |
+| [5-text_indentation.py]() |  |
 | [tests/6-max_integer_test.py]() |  |
 
-Avanzados:
-| Files | Description |
+| Folder | Description |
 | --- | --- |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
+| [Tests](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development/tests) | Folder containing the test files. |
