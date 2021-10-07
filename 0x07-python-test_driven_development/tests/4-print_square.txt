@@ -1,53 +1,47 @@
-=========================
-| TEST TEXT INDENTATION |
-=========================
+Module print_square
+======================
 
-this test was made to check if the program function that prints a text
-with 2 new lines after each of these characters: '.', '?' and ':'
+Using print_square:
+print square size x size.
 
-Print Text:
-===========
+    >>> print_square = __import__('4-print_square').print_square
 
-``5-text_indentation`` print text with identation
+Checking docstring for module:
+        >>> __import__('4-print_square').__doc__ != None
+        True
 
-::
-	>>> text_indentation = __import__('5-text_indentation').text_indentation
+Check docstring for function:
+        >>> len(print_square.__doc__) > 0
+        True
 
-	>>> text_indentation("""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quonam modo? Utrum igitur tibi litteram videor an totas paginas commovere? Non autem hoc: igitur ne illud quidem. Fortasse id optimum, sed ubi illud: Plus semper voluptatis? Teneo, inquit, finem illi videri nihil dolere. Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum rationi oboediens. Si id dicis, vicimus. Inde sermone vario sex illa a Dipylo stadia confecimus. Sin aliud quid voles, postea. Quae animi affectio suum cuique tribuens atque hanc, quam dico. Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres""")
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-	<BLANKLINE>
-	Quonam modo?
-	<BLANKLINE>
-	Utrum igitur tibi litteram videor an totas paginas commovere?
-	<BLANKLINE>
-	Non autem hoc:
-	<BLANKLINE>
-	igitur ne illud quidem.
-	<BLANKLINE>
-	Fortasse id optimum, sed ubi illud:
-	<BLANKLINE>
-	Plus semper voluptatis?
-	<BLANKLINE>
-	Teneo, inquit, finem illi videri nihil dolere.
-	<BLANKLINE>
-	Transfer idem ad modestiam vel temperantiam, quae est moderatio cupiditatum rationi oboediens.
-	<BLANKLINE>
-	Si id dicis, vicimus.
-	<BLANKLINE>
-	Inde sermone vario sex illa a Dipylo stadia confecimus.
-	<BLANKLINE>
-	Sin aliud quid voles, postea.
-	<BLANKLINE>
-	Quae animi affectio suum cuique tribuens atque hanc, quam dico.
-	<BLANKLINE>
-	Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres
+checking normal integer:
+    >>> print_square(2)
+    ##
+    ##
 
-Errors:
-=======
+checking when user pass decimal number and is negative:
+    >>> print_square(-2.0)
+    Traceback (most recent call last):
+    ...
+    TypeError: size must be an integer
 
-Raise errors when are necesary.
+checkin only numbers:
+    >>> print_square(-15)
+    Traceback (most recent call last):
+    ...
+    ValueError: size must be >= 0
 
-::
-	>>> text_indentation(1)
-	Traceback (most recent call last):
-	TypeError: text must be a string
+checking when user pass string:
+    >>> print_square('Hello')
+    Traceback (most recent call last):
+    ...
+    TypeError: size must be an integer
+
+checking when user pass argument 0:
+    >>> print_square(0)
+
+checking when user pass argument None:
+    >>> print_square(None)
+    Traceback (most recent call last):
+    ...
+    TypeError: size must be an integer
