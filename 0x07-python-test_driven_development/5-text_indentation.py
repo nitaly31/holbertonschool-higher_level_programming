@@ -8,6 +8,7 @@ def text_indentation(text):
     if type(text) is not str:
         raise TypeError("text must be a string")
         flag = 0
+        text = text.strip()
     for i in text:
         if flag == 0:
             if i == ' ':
