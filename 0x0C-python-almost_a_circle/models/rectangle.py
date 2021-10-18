@@ -2,7 +2,7 @@
 ''' First Rectangle '''
 
 
-Base = __import__('base').Base
+from models.base import Base
 
 
 class Rectangle(Base):
@@ -14,7 +14,7 @@ class Rectangle(Base):
         self.height = height
         self.x = x
         self.y = y
-    super().__init__(id)
+        super().__init__(id)
 
     @property
     def width(self):
@@ -40,11 +40,11 @@ class Rectangle(Base):
     @height.setter
     def height(self, value):
         ''' Height setter. Method that calculates the height '''
-        if type(new_height) is not int:
+        if type(value) is not int:
             raise TypeError("height must be an integer")
-        if new_height < 0:
+        if value < 0:
             raise ValueError("height must be >= 0")
-        self.__height = new_height
+        self.__height = value
 
     @property
     def x(self):
