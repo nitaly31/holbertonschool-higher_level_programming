@@ -27,7 +27,7 @@ Mandatory:
 | [0x09-python-everything_is_object](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x09-python-everything_is_object) | It aims to learn about object oriented programming (OOP), mutability, identity and data types in Python. |
 | [0x0A-python-inheritance](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x0A-python-inheritance) | It aims to learn about inheritance, superclass, baseclass and subclass in Python. |
 | [0x0B-python-input_output](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x0B-python-input_output) | It aims to learn how to open, read, write and append files from a script in Python. |
-| [0x0C-python-almost_a_circle](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x0C-python-almost_a_circle) | t aims to learn about unit testing, serialization, deserialization, JSON, args and kwargs in Python. |
+| [0x0C-python-almost_a_circle](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x0C-python-almost_a_circle) | It aims to learn about unit testing, serialization, deserialization, JSON, args and kwargs in Python. |
 
 ### :black_nib: Author
 ***
