@@ -86,16 +86,13 @@ class Rectangle(Base):
             rectangle += ("#" * self.width) + "\n"
         print(rectangle, end='')
 
-        def __str__(self):
-            ''' Overriding the __str__ method '''
-            str_rectangle = "[Rectangle] "
-            str_id = "({}) ".format(self.id)
-            str_xy = "{}/{} - ".format(self.__x, self.__y)
-            str_wh = "{}/{}".format(self.__width, self.__height)
-            return str_rectangle + str_id + str_xy + str_wh
+    def __str__(self):
+        ''' Overriding the __str__ method '''
+        return("[Rectangle] ({}) {}/{} - {}/{}".format(
+            self.id, self.__x, self.__y, self.__width, self.__height))
 
-        def update(self, *args):
-            ''' Assigns an argument to each attribute '''
-            args_list = ["id", "width", "height", "x", "y"]
-            for i in range(len(args)):
-                setattr(self, args_list[i], args[i])
+    def update(self, *args):
+        ''' Assigns an argument to each attribute '''
+        args_list = ["id", "width", "height", "x", "y"]
+        for i in range(len(args)):
+            setattr(self, args_list[i], args[i])
