@@ -31,7 +31,7 @@ class Base:
         JSON is one of the standard formats for sharing data representation.
         returns the JSON string representation of list_dictionaries
         '''
-        if list_dictionaries in None or len(list_dictionaries) == 0:
+        if list_dictionaries is None or len(list_dictionaries) == 0:
             return "[]"
         else:
             return json.dumps(list_dictionaries)
