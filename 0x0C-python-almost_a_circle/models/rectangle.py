@@ -134,5 +134,5 @@ class Rectangle(Base):
         Method that returs a dictionary with properties
         '''
         key_list = ["id", "width", "height", "x", "y"]
-        value_list = [self.id, self.__width, self.__height, self.__x, self.__y]
-        return dict(zip(key_list, key_value_list))
+        value_list = [self.id, self.width, self.height, self.x, self.y]
+        return dict(zip(key_list, value_list))
