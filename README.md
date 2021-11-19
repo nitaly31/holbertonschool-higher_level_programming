@@ -20,7 +20,7 @@ Repository that contains the project files that are developed for the learning a
 ### :pencil2: Projects carried out in the Repository
 ***
 All the following folders are projects carried out during studies:
-Mandatory:
+
 | Files | Description |
 | --- | --- |
 | [0x00-python-hello_world](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world) | Introduction to Python. |
@@ -43,4 +43,4 @@ Mandatory:
 ***
 *Holberton School Student*
 
-geraldine Meneses - [nitaly31](https://github.com/nitaly31)
+Geraldine Meneses - [nitaly31](https://github.com/nitaly31)
