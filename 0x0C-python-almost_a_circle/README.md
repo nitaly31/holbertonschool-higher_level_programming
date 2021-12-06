@@ -21,30 +21,15 @@
 
 ### 🎯 Tasks
 ***
-Mandatory:
+#### Mandatory:
+
+Inside `models/` folder:
+
 | Files | Description |
 | --- | --- |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
-| []() |  |
+| [__init__.py](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x0C-python-almost_a_circle/models/__init__.py) | Script that converts the directory as a package. |
+| [base.py](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x0C-python-almost_a_circle/models/base.py) | Base class of geometrical instances. |
+| [rectangle.py](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x0C-python-almost_a_circle/models/rectangle.py) | Class that inherits attributes references from `Base` class. |
+| [square.py](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x0C-python-almost_a_circle/models/square.py) | Class that inherits attributes references from `Square` class. |
+
+Each class contains public/private attibutes, class and static methods. Also, these class raise exceptions when is required.
