@@ -18,4 +18,4 @@ class Rectangle {
   }
 }
 
-smodule.exports = Rectangle;
+module.exports = Rectangle;
