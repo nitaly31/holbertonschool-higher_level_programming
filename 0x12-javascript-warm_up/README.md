@@ -5,9 +5,12 @@
 #### Python Scripts
 * Files will be interpreted on Ubuntu 20.04 LTS using `node` (version 14.x)
 * Files must be executable
-* Your code should be semistandard compliant (version 16.x.x). Rules of Standard + semicolons on top. Also as reference: [AirBnB style](https://github.com/airbnb/javascript)
-* The length of your files will be tested using wc
+* The first line of all your files should be exactly `#!/usr/bin/node`
+* The length of your files will be tested using `wc`
 
+### 🎨 Style
+***
+* Your code should be `semistandard` compliant (version 16.x.x). Rules of Standard + semicolons on top. Also as reference: [AirBnB style](https://github.com/airbnb/javascript)
 ### 🎯 Tasks
 ***
 
@@ -29,3 +32,11 @@
 | [11-second_biggest.js](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x12-javascript-warm_up/11-second_biggest.js) | Script that searches the second biggest integer in the list of arguments. |
 | [12-object.js](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x12-javascript-warm_up/12-object.js) | Script to replace the value `12` with `89`. |
 | [13-add.js](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x12-javascript-warm_up/13-add.js) | Function that returns the addition of 2 integers. |
+
+#### Advanced:
+| Files | Description |
+| --- | --- |
+| [100-let_me_const.js](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x12-javascript-warm_up/100-let_me_const.js) | File that modifies the value of `myVar` to `333`. |
+| [101-call_me_moby.js](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x12-javascript-warm_up/101-call_me_moby.js) | Function that executes `x` times a function. |
+| [102-add_me_maybe.js](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x12-javascript-warm_up/102-add_me_maybe.js) | Function that increments and calls a function. |
+| [103-object_fct.js](https://github.com/nitaly31/holbertonschool-higher_level_programming/blob/master/0x12-javascript-warm_up/103-object_fct.js) | Script by adding a new function `incr` that increments the integer `value`. |
