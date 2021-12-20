@@ -38,6 +38,9 @@ All the following folders are projects carried out during studies:
 | [0x0C-python-almost_a_circle](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x0C-python-almost_a_circle) | It aims to learn about unit testing, serialization, deserialization, JSON, args and kwargs in Python. |
 | [0x0D-SQL_introduction](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x0D-SQL_introduction) | It aims to learn about databases, relational databases, subqueries, tables, **MySQL** statements and functions. |
 | [0x0E-SQL_more_queries](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x0E-SQL_more_queries) | It aims to learn about how to create a new user, manage privileges for a user, `PRIMARY KEY`, `FOREIGN KEY`, constraints, subqueries, `JOIN` and `UNION` with **MySQL**. |
+| [0x0F-python-object_relational_mapping](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x0F-python-object_relational_mapping) | It aims to learn about how to connect to a MySQL database from a Python script, what ORM means and how to map a Python Class to a MySQL table. |
+| [0x12-javascript-warm_up](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x12-javascript-warm_up) | Introduction to NodeJS. |
+| [0x13-javascript_objects_scopes_closures](https://github.com/nitaly31/holbertonschool-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures) | Scope, objects and classes in JS. |
 
 ### :black_nib: Author
 ***
